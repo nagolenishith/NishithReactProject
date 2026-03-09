@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import tomato from "./assets/images.webp"
 import Header from "./Header";
 
+
+
 function App() {
   const products = [
   { id: 1, name: "Tomato", price: "2.50", image: tomato },
@@ -47,7 +49,10 @@ function App() {
         <div className="grid">
           {products.map((product) => (
             <div className="card" key={product.id}>
-              <img src={product.image} alt={product.name} />
+  <div className="image-wrapper">
+    <span className="badge">⭐ NEW</span>
+    <img src={product.image} alt={product.name} />
+  </div>
               <h3>{product.name}</h3>
               <p className="price">${product.price}</p>
               <button>Add to Cart</button>

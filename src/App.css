@@ -79,3 +79,22 @@ button:hover {
 .nav a:hover {
   text-decoration: underline;
 }
+
+/* IMAGE WRAPPER */
+.image-wrapper {
+  position: relative;
+}
+
+/* STAR BADGE */
+.badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: red;
+  color: white;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 4px;
+  z-index: 10;
+}

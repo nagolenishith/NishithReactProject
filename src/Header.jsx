@@ -10,6 +10,7 @@ function Header() {
           <a href="#">About Us</a>
           <a href="#">Contact</a>
           <a href="#">Query Form</a>
+          <a href="#">Extra File</a>
         </nav>
       </header>
   )
