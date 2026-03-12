@@ -3,7 +3,7 @@ import Header from "./Header";
 
 
 function MenuLikes() {
-  const [likes, setlikes] = useState("Nishith Likes");
+  const [likes, setlikes] = useState("Likes");
   const [videoLikes, setVideoLikes] = useState(0);
 
   return (
