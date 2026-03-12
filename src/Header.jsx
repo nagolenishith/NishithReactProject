@@ -6,11 +6,11 @@ function Header() {
     <header className="header">
         <div className="logo">My Shop</div>
         <nav className="nav">
-          <Link to="/menu">Menu</Link>
-          <a href="#">About Us</a>
-          <a href="#">Contact</a>
-          <a href="#">Query Form</a>
-          <a href="#">Extra File</a>
+          <Link to="/menu">Menu Likes</Link>
+          <Link to="about">About Us</Link>
+          <Link to="contact">Contact</Link>
+          <Link to= "queryform">Query Form</Link>
+          <Link to= "extra">Extra</Link>
         </nav>
       </header>
   )
