@@ -1,14 +1,13 @@
-import React from 'react'
-import Header from './Header'
+import React from 'react';
+import Header from './Header';
 
 function Aboutus() {
   return (
     <>
       <Header />
-    <div>Aboutus</div>
-    
+      <div>Aboutus page content</div>
     </>
-  )
+  );
 }
 
-export default Aboutus
+export default Aboutus;

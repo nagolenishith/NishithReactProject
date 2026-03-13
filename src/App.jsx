@@ -1,5 +1,4 @@
 import "./App.css";
-import { Link } from "react-router-dom";
 import tomato from "./assets/images.webp"
 import Header from "./Header";
 
@@ -40,18 +39,16 @@ function App() {
 
   return (
     <>
-      
-<Header></Header>
+      <Header />
       <div className="container">
         <h1 className="title">Nishith's List Of Products</h1>
-
         <div className="grid">
           {products.map((product) => (
             <div className="card" key={product.id}>
-  <div className="image-wrapper">
-    <span className="badge">⭐ NEW</span>
-    <img src={product.image} alt={product.name} />
-  </div>
+              <div className="image-wrapper">
+                <span className="badge">⭐ NEW</span>
+                <img src={product.image} alt={product.name} />
+              </div>
               <h3>{product.name}</h3>
               <p className="price">${product.price}</p>
               <button>Add to Cart</button>
