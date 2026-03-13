@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import MenuLikes from "./MenuLikes";
 import "./index.css";
-import Aboutus from "./assets/Aboutus";
+import Aboutus from "./Aboutus";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/Menu" element={<MenuLikes />} />
-        <Route path="/Aboutus" element={Aboutus} />
+        
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

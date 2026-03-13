@@ -3,7 +3,11 @@ import Header from './Header'
 
 function Aboutus() {
   return (
+    <>
+      <Header />
     <div>Aboutus</div>
+    
+    </>
   )
 }
 

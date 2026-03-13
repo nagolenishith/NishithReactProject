@@ -2,7 +2,6 @@ import "./App.css";
 import { Link } from "react-router-dom";
 import tomato from "./assets/images.webp"
 import Header from "./Header";
-import Aboutus from "./assets/Aboutus";
 
 
 function App() {
